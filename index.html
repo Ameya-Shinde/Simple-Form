@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+    <legend>Personal Details</legend>
+
+    <label>Firstname</label>
+    <input required type="text"><br><br>
+
+    <label>Middlename:</label>
+    <input type="text"> <br><br>
+
+    <label>Lastname:</label>
+    <input type="text"><br><br>
+
+    <label>Course :</label>
+    <select>
+        <option>Course</option>
+        <option>BCA</option>
+        <option>BBA</option>
+        <option >B.Tech</option>
+        <option>MBA</option>
+        <option>MCA</option>
+        <option>M.Tech</option>
+    </select><br><br>
+
+    <label>Gender :</label><br>
+    <input type="radio">
+    Male<br>
+    <input type="radio">
+    Female<br>
+    <input type="radio">
+    Other<br>
+    <br>
+
+    <label>DOB</label>
+    <input type="datetime-local"><br>
+
+    <lable>Phone :</lable>
+    <input value="+91" size="2" disabled>
+    <input required name="Phone" type="tel" maxlength="10"><br><br>
+
+    <label>Address</label><br>
+    <textarea rows="5"  cols="90">
+    </textarea><br><br>
+
+    <label>Email:</label>
+    <input required type="email"><br><br>
+    <br>
+
+    <lable>Password:</lable>
+    <input minlength="8" type="password"><br><br>
+    <br>
+
+    <lable>Re-type password:</lable>
+    <input type="password"><br><br>
+
+    <input required type="checkbox">Agree to terms and conditions
+    <br><br>
+
+    <lable>Choose File</lable>
+    <input type="file"><br><br>
+
+    <lable>Choose Color</lable>
+    <input type="color"><br><br>
+
+    <input type="reset">
+   <input type="submit">
+
+</fieldset>
+</form>
+</body>
+</html>
